@@ -4,3 +4,9 @@ body {
   font-size: 22px;
   line-height: 26px;
 }
+
+h1 {
+  display: block;
+  text-align: center;
+  margin-top: 50px;
+}
