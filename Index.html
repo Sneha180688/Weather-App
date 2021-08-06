@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Weather App</title>
 
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
     <link rel="stylesheet" href="Source\Styles.css" />
 
     <link
@@ -19,11 +21,11 @@
     <div class="container">
       <div class="wrapper">
         <div class="weather-app">
-          <h1>Albuquerque</h1>
+          <h1 id="city"></h1>
 
           <ul>
             <li>Thrusday 7:00 PM</li>
-            <li>Sunny</li>
+            <li id="description"></li>
           </ul>
 
           <div class="row">
@@ -32,14 +34,14 @@
                 src="https://ssl.gstatic.com/onebox/weather/64/sunny.png"
                 alt="sunny"
               />
-              32° C | °F
+              <strong id="temperature"> </strong> °C | °F
             </div>
 
             <div class="col-6">
               <ul>
                 <li>Percipitation : 0%</li>
-                <li>Humidity : 20%</li>
-                <li>Wind: 4mph</li>
+                <li>Humidity : <span id="humidity"></span>%</li>
+                <li>Wind: <span id="wind"></span> Mph</li>
               </ul>
             </div>
           </div>
