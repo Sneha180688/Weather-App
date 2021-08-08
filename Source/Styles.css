@@ -1,8 +1,9 @@
 body {
   font-family: Roboto, arial, sans-serif;
-  color: #202124;
+  color: whitesmoke;
   font-size: 22px;
   line-height: 26px;
+  background: #202124;
 }
 
 .container {
