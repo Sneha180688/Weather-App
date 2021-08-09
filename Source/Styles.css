@@ -46,3 +46,12 @@ li {
   padding: 0;
   padding-left: 0rem;
 }
+
+.footer {
+  margin: 0 auto;
+  margin-left: 360px;
+}
+
+.ddisplay-align {
+  margin-right: 100px;
+}
